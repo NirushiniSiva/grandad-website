@@ -1,33 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<body>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-    .btn {
-      background-color: DodgerBlue;
-      border: none;
-      color: white;
-      padding: 12px 30px;
-      cursor: pointer;
-      font-size: 20px;
-    }
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Scribbler - a codding landing page template for codrops</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="scribbler-global.css">
+      <link rel="stylesheet" href="scribbler-landing.css">
+      <link rel="author" href="humans.txt">
+  </head>
+  <body>
+    <nav>
+      <div class="logo"></div>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="Kopalapillai.pdf" class="link link--dark"><i class="fa fa-book"></i> Download</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1 class="hero__title"><img src="g1.png" alt="Trulli" width="60" height="60">Kopalapillai Kathirkamar</h1>
+      <p class="hero__description">Sub Heading</p>
+      <iframe width="940px" height="827px" src="https://www.yumpu.com/id/embed/view/YhIKMQyRNuZPJ6Aq" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe><br><a href="https://www.yumpu.com/id/document/view/65280109/kopalapillai-ninaivu-malar-final-version" title="Kopalapillai Ninaivu malar (final version)" target="_blank"></a>
+      <div class="wrapper">
+        <div class="callout">
+          <a href="Kopalapillai.pdf" class="button--primary">Download</a>
+        </div>
+      </div>
+    </div>
     
-    /* Darker background on mouse-over */
-    .btn:hover {
-      background-color: RoyalBlue;
-    }
-    </style>
 
 
-<h1 style="text-align:center" >Kopalapillai Kathirkamar</h1>
-<p style="text-align:center">
-    <iframe width="940px" height="827px" src="https://www.yumpu.com/id/embed/view/K0cEaeUXCxDnTWIo" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe><br><a href="https://www.yumpu.com/id/document/view/65242789/08012021-n-malar-1" title="08.01.2021 N. Malar (1)" target="_blank">08.01.2021 N. Malar (1)</a>
-    <p></p>
 
-    <p style="text-align:center"><button class="btn"><i class="fa fa-download"></i> Download</button></p>
-</body>
-</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scribbler.js"></script>
+  </body>
 </html>
